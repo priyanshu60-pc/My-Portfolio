@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Priyanshu Chakraborty — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header class="fade-up card">
+      <div style="display:flex;align-items:center;width:100%">
+        <div class="avatar">PC</div>
+        <div class="intro">
+          <h1 class="name">Priyanshu Chakraborty</h1>
+          <div class="role">Aspiring Full Stack Developer — Java | React | Spring Boot | MySQL</div>
+          <div class="cta">
+            <a class="btn" href="mailto:priyanshuchakraborty60@gmail.com">Email Me</a>
+            <a class="btn secondary" href="https://github.com/priyanshu60-pc" target="_blank">GitHub</a>
+            <a class="btn secondary" href="https://www.linkedin.com/in/priyanshu-chakraborty-159b0a271/" target="_blank">LinkedIn</a>
+            <button class="btn secondary" id="copyBtn">Copy Email</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="grid">
+      <section>
+        <div class="card fade-up">
+          <h2>About</h2>
+          <p class="meta">
+            Aspiring <strong>Full Stack Developer</strong> skilled in Java and JavaScript. Focused on scalable, responsive web applications and RESTful APIs.
+          </p>
+          <div class="objective">
+            <h3>Objective</h3>
+            <p class="meta">To develop robust web solutions using Java (Spring Boot) on backend and React on frontend while exploring cloud and DevOps technologies.</p>
+          </div>
+        </div>
+
+        <div class="card fade-up" style="margin-top:16px">
+          <h2>Projects</h2>
+          <div class="search">
+            <input id="projectFilter" placeholder="Filter projects by tech or name (e.g. React, Java)" />
+            <button class="btn" onclick="resetFilter()">Reset</button>
+          </div>
+
+          <div id="projects">
+            <article class="project" data-tech="python,speechrecognition,ai">
+              <div class="proj-title">
+                <strong>Jarvis — Personal AI Assistant</strong>
+                <a href="https://github.com/priyanshu60-pc/JARVIS-PERSONAL-AI-ASSISTANT" target="_blank">Repository</a>
+              </div>
+              <div class="proj-tech">Python · SpeechRecognition · pyttsx3 · smtplib · webbrowser</div>
+              <p class="meta">Voice recognition assistant automating desktop tasks like opening apps and sending emails.</p>
+            </article>
+
+            <article class="project" data-tech="java,jdbc,mysql,springboot">
+              <div class="proj-title">
+                <strong>Hospital Management System</strong>
+                <a href="https://github.com/priyanshu60-pc/HOSPITAL-MANAGMENT-SYSTEM-" target="_blank">Repository</a>
+              </div>
+              <div class="proj-tech">Java · JDBC · MySQL · Spring Boot (planned)</div>
+              <p class="meta">CRUD operations for patient & appointment management with secure record storage.</p>
+            </article>
+
+            <article class="project" data-tech="react,html,css">
+              <div class="proj-title">
+                <strong>Portfolio Website</strong>
+                <a href="#">Live (this page)</a>
+              </div>
+              <div class="proj-tech">React · JavaScript (ES6+) · HTML5 · CSS3</div>
+              <p class="meta">Responsive and animated portfolio showcasing projects and certifications.</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="card fade-up" style="margin-top:16px">
+          <h2>Education</h2>
+          <ul>
+            <li><strong>B.Tech in CSE (AIML)</strong> — Narula Institute of Technology (2025) — CGPA: 7.50</li>
+            <li><strong>Higher Secondary</strong> — Parulia KK High School (2022) — 84.23%</li>
+            <li><strong>Secondary</strong> — Parulia KK High School (2020) — 72.00%</li>
+          </ul>
+        </div>
+
+        <div class="card fade-up" style="margin-top:16px">
+          <h2>Certifications & Achievements</h2>
+          <ul>
+            <li>DSA with Java — Apna College</li>
+            <li>SQL (Intermediate) — HackerRank</li>
+            <li>Python Programming — Micro Pro</li>
+            <li>OOP in Java — Coursera</li>
+          </ul>
+        </div>
+      </section>
+
+      <aside>
+        <div class="card fade-up">
+          <h2>Contact</h2>
+          <p><strong>Email:</strong> <a href="mailto:priyanshuchakraborty60@gmail.com">priyanshuchakraborty60@gmail.com</a></p>
+          <p><strong>Phone:</strong> +91-8509554213</p>
+          <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/priyanshu-chakraborty-159b0a271/">Profile</a></p>
+          <p><strong>GitHub:</strong> <a href="https://github.com/priyanshu60-pc">github.com/priyanshu60-pc</a></p>
+
+          <h3>Tech Skills</h3>
+          <div class="skills-list">
+            <span class="chip">Java</span>
+            <span class="chip">Spring Boot</span>
+            <span class="chip">React.js</span>
+            <span class="chip">MySQL</span>
+            <span class="chip">HTML5</span>
+            <span class="chip">CSS3</span>
+            <span class="chip">Git & GitHub</span>
+            <span class="chip">VS Code</span>
+          </div>
+        </div>
+
+        <div class="card fade-up" style="margin-top:16px">
+          <h2>Leadership & Activities</h2>
+          <ul>
+            <li>Organized Annual Fest & Tech Fest</li>
+            <li>Active team participant with leadership & communication skills</li>
+          </ul>
+        </div>
+
+        <div class="card fade-up" style="margin-top:16px">
+          <h2>Download & Resume</h2>
+          <p class="meta">Download a clean PDF version of this resume.</p>
+          <a class="btn" href="#" id="downloadBtn">Download PDF</a>
+        </div>
+      </aside>
+    </main>
+
+    <footer>
+      Crafted with ❤️ — Priyanshu Chakraborty • 2025
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
