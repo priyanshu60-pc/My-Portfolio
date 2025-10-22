@@ -13,8 +13,8 @@ Check out my portfolio live: [Portfolio Website](https://127.0.0.1:5500/index.ht
 I am **Priyanshu Chakraborty**, an aspiring Full Stack Developer with hands-on experience in:
 
 - **Backend:** Java, Spring Boot, JDBC, MySQL
-- **Frontend:** HTML5, CSS3, JavaScript (ES6+), React.js
-- **Other Tools:** Git, GitHub, Redux (learning), RESTful APIs, VS Code / IntelliJ
+- **Frontend:** HTML5, CSS3, JavaScript
+- **Other Tools:** Git, GitHub, VS Code / IntelliJ
 
 This portfolio demonstrates my projects, skills, education, and certifications in a responsive, modern web layout.
 
