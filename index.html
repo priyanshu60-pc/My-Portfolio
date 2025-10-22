@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyanshu Chakraborty — Portfolio</title>
+    <meta name="description" content="Priyanshu Chakraborty — Full Stack Developer | Java, React, Spring Boot, MySQL">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="fade-up card">
+            <div class="header-flex">
+                <div class="avatar">PC</div>
+                <div class="intro">
+                    <h1 class="name">Priyanshu Chakraborty</h1>
+                    <div class="role">Aspiring Full Stack Developer — Java | React | Spring Boot | MySQL</div>
+                    <div class="cta">
+                        <a class="btn" href="mailto:priyanshuchakraborty60@gmail.com">Email Me</a>
+                        <a class="btn secondary" href="https://github.com/priyanshu60-pc" target="_blank">GitHub</a>
+                        <a class="btn secondary" href="https://www.linkedin.com/in/priyanshu-chakraborty-159b0a271/" target="_blank">LinkedIn</a>
+                        <button class="btn secondary" id="copyBtn">Copy Email</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="grid">
+            <!-- Left content -->
+            <section>
+                <!-- About -->
+                <div class="card fade-up">
+                    <h2>About</h2>
+                    <p class="meta-text">
+                        Aspiring <strong>Full Stack Developer</strong> skilled in Java and JavaScript. Focused on building scalable, responsive web applications and integrating RESTful APIs. Hands-on project experience including AI assistant, Hospital Management System, and responsive portfolio.
+                    </p>
+                    <div class="objective">
+                        <h3>Objective</h3>
+                        <p class="meta">Develop robust web solutions using Java (Spring Boot) on the backend and React on the frontend, while contributing to scalable products and learning cloud and DevOps practices.</p>
+                    </div>
+                </div>
+
+                <!-- Projects -->
+                <div class="card fade-up projects-section">
+                    <h2>Projects</h2>
+                    <div class="search">
+                        <input id="projectFilter" placeholder="Filter projects by tech or name (e.g. React, Java)">
+                        <button class="btn" onclick="resetFilter()">Reset</button>
+                    </div>
+                    <div id="projects">
+                        <article class="project" data-tech="python,speechrecognition,ai">
+                            <div class="proj-title">
+                                <div><strong>Jarvis — Personal AI Assistant</strong> <span class="meta">(Jul 2025 — Ongoing)</span></div>
+                                <div><a href="https://github.com/priyanshu60-pc/JARVIS-PERSONAL-AI-ASSISTANT" target="_blank">Repository</a></div>
+                            </div>
+                            <div class="proj-tech">Python · SpeechRecognition · pyttsx3 · smtplib · webbrowser</div>
+                            <p class="meta">Built an assistant with voice recognition to automate desktop tasks (open apps, send emails).</p>
+                        </article>
+
+                        <article class="project" data-tech="java,jdbc,mysql,springboot">
+                            <div class="proj-title">
+                                <div><strong>Hospital Management System</strong> <span class="meta">(May — Aug 2025)</span></div>
+                                <div><a href="https://github.com/priyanshu60-pc/HOSPITAL-MANAGMENT-SYSTEM-" target="_blank">Repository</a></div>
+                            </div>
+                            <div class="proj-tech">Java · JDBC · MySQL · Spring Boot (planned)</div>
+                            <p class="meta">CRUD operations for patient and appointment management with persistent storage.</p>
+                        </article>
+
+                        <article class="project" data-tech="react,html,css">
+                            <div class="proj-title">
+                                <div><strong>Portfolio Website</strong> <span class="meta">(2025)</span></div>
+                                <div><a href="#">Live (this page)</a></div>
+                            </div>
+                            <div class="proj-tech">JavaScript · HTML5 · CSS3</div>
+                            <p class="meta">Responsive portfolio demonstrating projects, skills and certifications.</p>
+                        </article>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="card fade-up education-section">
+                    <h2>Education</h2>
+                    <div class="two-col">
+                        <div>
+                            <strong>B.Tech in Computer Science (AIML)</strong><br> Narula Institute of Technology, Kolkata — 2025<br>
+                            <span class="meta">CGPA: 7.50/10 (Till 6th Sem)</span>
+                        </div>
+                        <div>
+                            <strong>Higher Secondary</strong><br> Parulia KK High School — WBCHSE — 2022<br>
+                            <span class="meta">84.23%</span>
+                        </div>
+                    </div>
+                    <div style="margin-top:12px">
+                        <strong>Secondary</strong><br> Parulia KK High School — WBBSE — 2020 — <span class="meta">72.00%</span>
+                    </div>
+                </div>
+
+                <!-- Certifications -->
+                <div class="card fade-up">
+                    <h2>Certifications & Achievements</h2>
+                    <ul class="meta-text">
+                        <li>DSA with Java — Apna College</li>
+                        <li>SQL (Intermediate) — HackerRank</li>
+                        <li>Python Programming Certification — Micro Pro</li>
+                        <li>OOP in Java — Coursera</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Right sidebar -->
+            <aside>
+                <!-- Contact & Skills -->
+                <div class="card fade-up">
+                    <h2>Contact</h2>
+                    <div class="contact-row">
+                        <div class="meta"><strong>Email:</strong> <a href="mailto:priyanshuchakraborty60@gmail.com">priyanshuchakraborty60@gmail.com</a></div>
+                        <div class="meta"><strong>Phone:</strong> +91-8509554213</div>
+                        <div class="meta"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/priyanshu-chakraborty-159b0a271/" target="_blank">/in/priyanshu-chakraborty-159b0a271</a></div>
+                        <div class="meta"><strong>GitHub:</strong> <a href="https://github.com/priyanshu60-pc" target="_blank">github.com/priyanshu60-pc</a></div>
+                    </div>
+
+                    <div style="margin-top:14px">
+                        <h3>Tech Skills</h3>
+                        <div class="skills-list">
+                            <span class="chip">Java</span>
+                            <span class="chip">Python</span>
+                            <span class="chip">Spring Boot</span>
+                            <span class="chip">JDBC</span>
+                            <span class="chip">MySQL</span>
+                            <span class="chip">HTML5</span>
+                            <span class="chip">CSS3</span>
+                            <span class="chip">Git & GitHub</span>
+                            <span class="chip">VS Code / IntelliJ</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Leadership -->
+                <div class="card fade-up leadership-section">
+                    <h2>Leadership & Activities</h2>
+                    <ul class="meta-text">
+                        <li>Organized college & hostel events: Annual Fest, Tech Fest</li>
+                        <li>Active team participant with leadership and communication experience</li>
+                    </ul>
+                </div>
+
+                <!-- Resume Download -->
+                <div class="card fade-up resume-section">
+                    <h2>Download & Resume</h2>
+                    <p class="meta">Download a clean PDF version of this resume.</p>
+                    <div class="resume-btns">
+                        <a class="btn download" href="https://drive.google.com/uc?export=download&id=YOUR_FILE_ID" target="_blank">Download PDF</a>
+                        <a class="btn secondary" href="#contact" onclick="window.scrollTo({top:0,behavior:'smooth'})">Contact</a>
+                    </div>
+                </div>
+            </aside>
+        </main>
+
+        <footer>
+            Crafted with ❤️ • Priyanshu Chakraborty • 2025
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
