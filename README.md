@@ -34,10 +34,6 @@ This portfolio demonstrates my projects, skills, education, and certifications i
 ## 📂 Project Structure
 portfolio/
 │
-├── index.html # Main HTML file (contains structure & inline styles)
-│
-├── assets/ # (Optional) Folder for images, icons, logos
-│
-├── README.md # This documentation file
-│
-└── .gitignore # Files ignored by Git (node_modules, etc.)
+├── index.html
+├── style.css
+├── script.js
