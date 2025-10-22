@@ -4,7 +4,7 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Priyanshu_Chakraborty-blue)](https://www.linkedin.com/in/priyanshu-chakraborty-159b0a271/)
 
 ## 🌐 Live Demo
-Check out my portfolio live: [Portfolio Website](https://yourusername.github.io/portfolio/)
+Check out my portfolio live: [Portfolio Website](https://127.0.0.1:5500/index.html)
 
 ---
 
